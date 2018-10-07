@@ -1,0 +1,101 @@
+/* style Angaben für kreier.org/aqi - in geplantem responsive Webdesign und html5 */
+a{text-decoration:none;}
+a:visited{color:blue;}
+a:hover{text-decoration:underline;}
+
+html, body, p{
+	font-family:Calibri,Verdana,Helvetica,Arial,sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h3, h4, h5 {font-family:Cambria,Georgia,serif;}
+p{
+	padding:5px 0px;
+}
+h3, h4{
+	padding:5px 0px;
+	margin-top:5px;
+	margin-bottom:0px;
+}
+#head{
+	background: #0B2E2B url("head.jpg") no-repeat;
+	height:100px;
+}
+#headname{
+	color:#fff;
+	font-size:50px;
+	font-weight:bold;
+	font-family:Cambria,Georgia,serif;
+	padding: 15px 30px;
+}
+#navigation{
+	overflow:auto;
+	padding:0px 30px;
+	background-color:#022;
+	min-height:24px;
+}
+#navigation a{
+	margin: 1px;
+	padding: 7px 5px 2px;
+	color:#fff;
+	font-weight:bold;
+}
+#navigation a:hover{
+	background-color:#006060;
+	text-decoration:none;
+}
+#inhaltsverzeichnis{
+	padding:10px;
+	margin:10px 30px;
+	background-color:#fff0f0;
+}
+#inhalt h4{	padding:3px 0px; margin:0px 0px 5px 0px;}
+#inhalt{
+	top: 0px; 
+	padding:10px 30px;
+}
+#inhalt h3{
+	margin-top:20px;
+	font-weight:bold;
+	font-size:x-large;
+	color:#055;
+	border-bottom:solid 2px #088;
+	display:block;
+}
+#fuss{margin:0% auto;background-color:#999;font-size:10pt;padding:10px;text-align:center;}
+.IV1{
+	-webkit-column-width: 250px;
+	column-width: 250px;
+}
+.avoidbreak{
+	-webkit-column-break-inside: avoid;
+	break-inside: avoid;
+	padding-bottom:10px;
+}
+.mehrspaltig{
+	-webkit-column-width: 450px;
+	column-width: 450px;
+	margin-top:10px;
+}
+.pre{
+	background-color:#f0f0f0;
+	color:#000090;
+	font-family:Consolas,Courier,monospace;
+	padding:10px;
+	display:block;
+	font-size:75%;
+	-webkit-column-break-inside: avoid;
+	break-inside: avoid;
+	white-space:nowrap;
+	overflow:auto;
+}
+
+
+@media only screen and (max-width:750px) {
+  #inhalt, #navigation, #fuss{
+    padding-left:10px;
+	padding-right:10px;
+  }
+  #inhaltsverzeichnis{ margin:10px;}
+  p { line-height:1.4; }
+}
