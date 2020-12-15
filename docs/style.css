@@ -1,0 +1,16 @@
+/* style settings for kreier.org/aqi - responsive and html5 */
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+html, body, p, span, div, a, ul, li {
+	font-family:Calibri,Verdana,Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+h1 { /* title of the page */
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 36px;
+}
+
+
